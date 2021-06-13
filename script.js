@@ -22,7 +22,7 @@ var formSumbitHandler = function(event){
     saveSearch();
     pastSearch(city);
 }
-
+jj
 var saveSearch = function(){
     localStorage.setItem("cities", JSON.stringify(cities));
 };
