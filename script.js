@@ -167,14 +167,14 @@ var display5Day = function(weather){
        var forecastTempEl=document.createElement("span");
        forecastTempEl.classList = "card-body text-center";
        forecastTempEl.textContent = dailyForecast.main.temp + " °F";
-
+            // Add to string "Temperature"
         //append to forecast card
         forecastEl.appendChild(forecastTempEl);
 
        var forecastHumEl=document.createElement("span");
        forecastHumEl.classList = "card-body text-center";
        forecastHumEl.textContent = dailyForecast.main.humidity + "  %";
-
+            // Add to string "Humidity string"
        //append to forecast card
        forecastEl.appendChild(forecastHumEl);
 
