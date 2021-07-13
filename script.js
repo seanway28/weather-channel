@@ -166,6 +166,10 @@ var display5Day = function(weather){
        //create temperature span
        var forecastTempEl=document.createElement("span");
        forecastTempEl.classList = "card-body text-center";
+       var tempLabel = document.createElement("p");
+       tempLabel.textContent = "Temp."
+       tempLabel.classList = "text-center"
+       forecastEl.appendChild(tempLabel);
        forecastTempEl.textContent = dailyForecast.main.temp + " °F";
             // Add to string "Temperature"
         //append to forecast card
@@ -173,6 +177,13 @@ var display5Day = function(weather){
 
        var forecastHumEl=document.createElement("span");
        forecastHumEl.classList = "card-body text-center";
+
+       var humidityLabel = document.createElement("p");
+       humidityLabel.textContent = "Humidity"
+       humidityLabel.classList = "text-center "
+       forecastEl.appendChild(humidityLabel);
+
+  
        forecastHumEl.textContent = dailyForecast.main.humidity + "  %";
             // Add to string "Humidity string"
        //append to forecast card
