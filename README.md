@@ -1,6 +1,6 @@
 # A 3rd Party API Challenge
 
-Weather-Channel
+## Weather-Channel
 
 The Task at hand:
 
